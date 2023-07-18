@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="src/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Header section start -->
+    <header class="absolute top-0 z-10 w-full">
+        <div class="container mx-auto px-3 relative">
+            <div class="flex justify-between items-center py-3 lg:py-0 text-white">
+                <div class="logo">
+                    <a href="#"><img src="image/asset 1.png" alt=""></a>
+                </div>
+                <nav>
+                    <ul class="lg:flex hidden">
+                        <li><a href="#" class="font-bold uppercase text-sm px-5 py-7 block">home</a></li>
+                        <li><a href="#" class="font-bold uppercase text-sm px-5 py-7 block">landings</a></li>
+                        <li class="relative group">
+                            <a href="#" class="font-bold uppercase text-sm px-5 py-7 block">pages <i
+                                    class="fa-solid fa-angle-down group-hover:rotate-180 duration-500"></i></a>
+                            <ul
+                                class="absolute top-full mt-5 bg-white text-black rounded-md shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-100 group-hover:mt-0">
+                                <li><a href="#"
+                                        class="text-sm py-3 px-5 block uppercase font-medium hover:text-indigo-700">company</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-sm py-3 px-5 block uppercase font-medium hover:text-indigo-700">account</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-sm py-3 px-5 block uppercase font-medium hover:text-indigo-700">real
+                                        estate</a></li>
+                                <li><a href="#"
+                                        class="text-sm py-3 px-5 block uppercase font-medium hover:text-indigo-700">net
+                                        market</a></li>
+                                <li><a href="#"
+                                        class="text-sm py-3 px-5 block uppercase font-medium hover:text-indigo-700">photography</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-sm py-3 px-5 block uppercase font-medium hover:text-indigo-700">blog</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="font-bold uppercase text-sm px-5 py-7 block">portfolio</a></li>
+                        <li class="relative group">
+                            <a href="#" class="font-bold uppercase text-sm px-5 py-7 block">docs <i
+                                    class="fa-solid fa-angle-down group-hover:rotate-180 duration-500"></i></a>
+                            <ul
+                                class="absolute top-full mt-5 text-black bg-white rounded-md shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-100 group-hover:mt-0">
+                                <li><a href="#"
+                                        class="text-sm py-3 px-5 block uppercase font-medium hover:text-indigo-700">documentation</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-sm py-3 px-5 block uppercase font-medium hover:text-indigo-700">changelog</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-sm py-3 px-5 block uppercase font-medium hover:text-indigo-700">widget</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="font-bold uppercase text-sm px-5 py-7 block">contact</a></li>
+                    </ul>
+                </nav>
+                <!-- mobile menu -->
+                <nav class="lg:hidden absolute top-full left-0 bg-white shadow-lg w-full">
+                    <ul class="mob_main_menu text-black">
+                        <li><a href="#" class="font-bold uppercase text-sm p-5 block">home</a></li>
+                        <li><a href="#" class="font-bold uppercase text-sm p-5 block">landings</a></li>
+                        <li class="relative group">
+                            <a href="#" class="font-bold uppercase text-sm p-5 block">pages <i
+                                    class="fa-solid fa-angle-down group-hover:rotate-180 duration-500"></i></a>
+                            <ul class="pl-4 mob_sub_menu text-black">
+                                <li><a href="#"
+                                        class="text-sm p-3 block uppercase font-medium hover:text-indigo-700">company</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-sm p-3 block uppercase font-medium hover:text-indigo-700">account</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-sm p-3 block uppercase font-medium hover:text-indigo-700">real
+                                        estate</a></li>
+                                <li><a href="#"
+                                        class="text-sm p-3 block uppercase font-medium hover:text-indigo-700">net
+                                        market</a></li>
+                                <li><a href="#"
+                                        class="text-sm p-3 block uppercase font-medium hover:text-indigo-700">photography</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-sm p-3 block uppercase font-medium hover:text-indigo-700">blog</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="font-bold uppercase text-sm p-5 block">portfolio</a></li>
+                        <li class="relative group">
+                            <a href="#" class="font-bold uppercase text-sm p-5 block">docs <i
+                                    class="fa-solid fa-angle-down group-hover:rotate-180 duration-500"></i></a>
+                            <ul class="pl-4 mob_sub_menu">
+                                <li><a href="#"
+                                        class="text-sm p-3 block uppercase font-medium hover:text-indigo-700">documentation</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-sm p-3 block uppercase font-medium hover:text-indigo-700">changelog</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-sm p-3 block uppercase font-medium hover:text-indigo-700">widget</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="font-bold uppercase text-sm p-5 block">contact</a></li>
+                    </ul>
+                </nav>
+                <div class="icon flex items-center">
+                    <a href="#"
+                        class="bg-white shadow-lg w-8 h-8 inline-block rounded-full text-center leading-8 text-black hover:bg-slate-200 mr-3"><i
+                            class="fa-solid fa-gear"></i></a>
+                    <a href="#"
+                        class="lg:bg-white bg-indigo-600 text-white lg:text-black w-8 h-8 inline-block rounded-full text-center leading-8 hover:bg-slate-200"><i
+                            class="fa-solid fa-shopping-cart"></i></a>
+                    <div class="toggle lg:hidden block"><i class="fa-solid fa-bars ml-3 text-lg"></i></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header section end -->
+
+    <!-- Banner section start -->
+    <section>
+        <div
+            class="bg-[linear-gradient(transparent,rgba(0,0,0,0.7)),url('../image/asset34.jpeg')] bg-cover bg-center py-56 lg:pt-64 text-center text-white font-medium">
+            <a href="#"
+                class="w-24 h-24 flex justify-center mx-auto text-white items-center bg-[rgba(255,255,255,0.2)] rounded-full hover:bg-[rgba(255,255,255,0.5)]"><i
+                    class="fa-solid fa-play"></i></a>
+            <h5 class="text-4xl my-6">Body & Mind</h5>
+            <h1 class="text-4xl lg:text-6xl mb-6">Fitness Classes for Every Goal</h1>
+            <p class="max-w-xl mx-auto">Launch your campaign and benefit from our expertise on designing and managing
+                conversion centered Tailwind CSS v3.x html page.
+                Join Our Classes</p>
+            <a href="#"
+                class="mt-8 inline-block py-3 px-5 rounded-md capitalize bg-indigo-600 hover:bg-indigo-700 duration-150">jion
+                our classes</a>
+        </div>
+    </section>
+    <!-- Banner section end -->
+
+    <!-- meditation section start -->
+    <section class="md:py-24 py-16">
+        <div class="container mx-auto px-3">
+            <div class="md:flex items-center gap-[30px]">
+                <div class="md:w-[40%] pb-[30px] lg:pb-0">
+                    <div class="flex gap-6 items-center">
+                        <div class="w-1/2">
+                            <img src="image/asset 2.jpeg" alt="" class="shadow rounded-md mb-6">
+                            <img src="image/asset 3.jpeg" alt="" class="shadow rounded-md">
+                        </div>
+                        <div class="w-1/2">
+                            <img src="image/asset 4.jpeg" alt="" class="shadow rounded-md">
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-[60%]">
+                    <h1 class="md:text-4xl text-3xl mb-6 font-semibold">The Techwind Yoga <br> & Meditation</h1>
+                    <p class="max-w-xl text-slate-400 mb-6">Start working with Tailwind CSS that can provide everything
+                        you need to generate awareness, drive traffic, connect. Dummy text is text that is used in the
+                        publishing industry or by web designers to occupy the space which will later be filled with
+                        'real' content.</p>
+                    <a href="#"
+                        class="mt-6 text-indigo-700 font-medium relative after:duration-500 after:content[''] after:w-0 after:h-px after:bottom-0 after:left-0 after:bg-indigo-700 after:absolute hover:after:w-full ">Learn
+                        More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- meditation section end -->
+
+    <!-- Therapy section start -->
+    <section class="md:py-24 py-16">
+        <div class="container mx-auto px-3">
+            <div class="md:flex">
+                <div class="md:w-1/2">
+                    <h1 class="text-3xl font-medium mr-3 mb-3">Most Popular Meditation Therapy</h1>
+                </div>
+                <div class="md:w-1/2">
+                    <p class="text-slate-400 font-medium">
+                        Start working with Techwind that can provide everything you need to generate awareness, drive
+                        traffic, connect.</p>
+                </div>
+            </div>
+            <div class="md:flex pt-14 gap-[30px]">
+                <div class="md:w-1/3 relative group overflow-hidden rounded-md mb-[30px] md:mb-0">
+                    <img src="image/asset 5.jpeg" alt="">
+                    <div
+                        class="absolute duration-300 inset-0 top-2/4 bg-gradient-to-t from-slate-800 to-transparent via-bg-slate-900/60 group-hover:top-0">
+                    </div>
+                    <div class="absolute w-full text-white bottom-0 px-5 pb-5 text-center">
+                        <i
+                            class="fa-solid fa-headphones text-3xl mb-5 opacity-0 duration-300 group-hover:opacity-100"></i>
+                        <h1 class="mb-5 text-xl font-bold">Sound Therapy</h1>
+                        <p class="hidden group-hover:block">We develop digital strategies, products and services
+                            appreciated by clients.</p>
+                    </div>
+                </div>
+                <div class="md:w-1/3 relative group overflow-hidden rounded-md mb-[30px] md:mb-0">
+                    <img src="image/asset 6.jpeg" alt="">
+                    <div
+                        class="absolute duration-300 inset-0 top-2/4 bg-gradient-to-t from-slate-800 to-transparent via-bg-slate-900/60 group-hover:top-0">
+                    </div>
+                    <div class="absolute w-full text-white bottom-0 px-5 pb-5 text-center">
+                        <i
+                            class="fa-solid fa-chart-gantt text-3xl mb-5 opacity-0 duration-300 group-hover:opacity-100"></i>
+                        <h1 class="mb-5 text-xl font-bold">Meditation</h1>
+                        <p class="hidden group-hover:block">We develop digital strategies, products and services
+                            appreciated by clients.</p>
+                    </div>
+                </div>
+                <div class="md:w-1/3 relative group overflow-hidden rounded-md">
+                    <img src="image/asset 7.jpeg" alt="">
+                    <div
+                        class="absolute duration-300 inset-0 top-2/4 bg-gradient-to-t from-slate-800 to-transparent via-bg-slate-900/60 group-hover:top-0">
+                    </div>
+                    <div class="absolute w-full text-white bottom-0 px-5 pb-5 text-center">
+                        <i
+                            class="fa-solid fa-sun-plant-wilt text-3xl mb-5 opacity-0 duration-300 group-hover:opacity-100"></i>
+                        <h1 class="mb-5 text-xl font-bold">Mindfullness</h1>
+                        <p class="hidden group-hover:block">We develop digital strategies, products and services
+                            appreciated by clients.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Therapy section end -->
+
+    <!-- Work Section Start -->
+
+    <section class="md:py-24 py-16">
+        <div class="container mx-auto px-3">
+            <div class="text-center">
+                <h1 class="text-3xl font-medium mr-3 mb-3">How It Work ?</h1>
+                <p class="text-slate-400 font-medium">
+                    Start working with Techwind that can provide everything you need to <br> generate awareness, drive
+                    traffic, connect.</p>
+            </div>
+            <div class="flex mt-20 flex-wrap">
+                <div class="xl:w-1/4 lg:w-1/2 mb-3 px-3 text-center group">
+                    <img src="image/asset 8.png" alt="" class="w-14 mx-auto">
+                    <h1 class="text-xl my-5">Life Coaching</h1>
+                    <p class="text-slate-400">If the distribution of letters and 'words' is random, the reader will not
+                        be distracted from making.</p>
+                </div>
+                <div class="xl:w-1/4 lg:w-1/2 mb-3 px-3 text-center">
+                    <img src="image/asset 9.png" alt="" class="w-14 mx-auto">
+                    <h1 class="text-xl my-5">Life Coaching</h1>
+                    <p class="text-slate-400">If the distribution of letters and 'words' is random, the reader will not
+                        be distracted from making.</p>
+                </div>
+                <div class="xl:w-1/4 lg:w-1/2 mb-3 px-3 text-center">
+                    <img src="image/asset 10.png" alt="" class="w-14 mx-auto">
+                    <h1 class="text-xl my-5">Life Coaching</h1>
+                    <p class="text-slate-400">If the distribution of letters and 'words' is random, the reader will not
+                        be distracted from making.</p>
+                </div>
+                <div class="xl:w-1/4 lg:w-1/2 mb-3 px-3 text-center">
+                    <img src="image/asset 11.png" alt="" class="w-14 mx-auto">
+                    <h1 class="text-xl my-5">Life Coaching</h1>
+                    <p class="text-slate-400">If the distribution of letters and 'words' is random, the reader will not
+                        be distracted from making.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section End -->
+
+    <!-- Yoga Poses Section Start -->
+    <section class="md:py-24 py-16">
+        <div class="container mx-auto px-3">
+            <div class="md:flex items-center relative bg-indigo-700 rounded-xl overflow-hidden">
+                <div class="md:w-1/2 ">
+                    <img src="image/asset 12.jpeg" alt="" class="w-full">
+                    <a href="#"
+                        class="w-20 h-20 flex justify-center mx-auto text-indigo-700 items-center bg-white rounded-full hover:bg-[rgba(255,255,255,0.5)] absolute md:top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4"><i
+                            class="fa-solid fa-play"></i></a>
+                </div>
+                <div class="md:w-1/2  lg:p-14 p-10 text-white">
+                    <h1 class="text-4xl">Check out some of our
+                        Yoga Poses Videos.</h1>
+                    <p class="text-lg my-6 text-white/70">Search all the open positions on the web. Get your own
+                        personalized salary estimate. Read reviews on over 30000+ companies worldwide.</p>
+                    <ul class="text-white/50">
+                        <li class="mb-3"><i class="fa-regular fa-check-circle mr-3 text-white"></i>Digital Marketing
+                            Solutions for Tomorrow</li>
+                        <li class="mb-3"><i class="fa-regular fa-check-circle  mr-3 text-white"></i>Our Talented &
+                            Experienced Marketing Agency</li>
+                        <li><i class="fa-regular fa-check-circle  mr-3 text-white"></i>Create your own skin to match
+                            your brand</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Yoga Poses Section End -->
+
+    <!-- Journey Section Start -->
+    <section>
+        <div
+            class="bg-[linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../image/asset35.jpeg')] py-20 bg-cover bg-center bg-fixed">
+            <div class="container mx-auto px-3 text-center text-white">
+                <h1 class="text-4xl">Yoga is the journey of the self <br>
+                    through the self</h1>
+                <p class="max-w-xl mx-auto my-5">Start working with Techwind that can provide everything you need to
+                    generate awareness, drive traffic, connect.</p>
+                <a href="#" class="bg-indigo-600 px-5 py-3 inline-block rounded-md text-white capitalize">jion our
+                    classes</a>
+            </div>
+        </div>
+    </section>
+    <!-- Journey Section End -->
+
+
+    <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
+        <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="myTab" data-tabs-toggle="#myTabContent"
+            role="tablist">
+            <li class="mr-2" role="presentation">
+                <button class="inline-block p-4 border-b-2 rounded-t-lg" id="profile-tab" data-tabs-target="#profile"
+                    type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+            </li>
+            <li class="mr-2" role="presentation">
+                <button
+                    class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                    id="dashboard-tab" data-tabs-target="#dashboard" type="button" role="tab" aria-controls="dashboard"
+                    aria-selected="false">Dashboard</button>
+            </li>
+            <li class="mr-2" role="presentation">
+                <button
+                    class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                    id="settings-tab" data-tabs-target="#settings" type="button" role="tab" aria-controls="settings"
+                    aria-selected="false">Settings</button>
+            </li>
+            <li role="presentation">
+                <button
+                    class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                    id="contacts-tab" data-tabs-target="#contacts" type="button" role="tab" aria-controls="contacts"
+                    aria-selected="false">Contacts</button>
+            </li>
+        </ul>
+    </div>
+    <div id="myTabContent">
+        <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="profile" role="tabpanel"
+            aria-labelledby="profile-tab">
+            <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
+                    class="font-medium text-gray-800 dark:text-white">Profile tab's associated content</strong>.
+                Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps
+                classes to control the content visibility and styling.</p>
+        </div>
+        <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="dashboard" role="tabpanel"
+            aria-labelledby="dashboard-tab">
+            <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
+                    class="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</strong>.
+                Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps
+                classes to control the content visibility and styling.</p>
+        </div>
+        <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="settings" role="tabpanel"
+            aria-labelledby="settings-tab">
+            <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
+                    class="font-medium text-gray-800 dark:text-white">Settings tab's associated content</strong>.
+                Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps
+                classes to control the content visibility and styling.</p>
+        </div>
+        <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="contacts" role="tabpanel"
+            aria-labelledby="contacts-tab">
+            <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
+                    class="font-medium text-gray-800 dark:text-white">Contacts tab's associated content</strong>.
+                Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps
+                classes to control the content visibility and styling.</p>
+        </div>
+    </div>
+
+
+
+    <!-- jquery -->
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+</body>
+
+</html>
